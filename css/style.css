@@ -1,0 +1,42 @@
+body {
+	padding: 2% 25%;
+	font: 1em/1.5 sans-serif;
+}
+form {
+	margin-top: 30px;
+}
+
+/* Attribute Selectors */
+
+span[class="highlight"] {
+	padding: 5px;
+	background-color: yellow;  
+}
+
+a[class="foo"] {
+	padding: 5px;
+	background-color: burlywood;  
+	color: white;
+}
+
+input[type="email"] {
+	width: 300px;
+	height: 25px;
+	border: 2px solid grey;
+	background: lightyellow;
+}
+
+input[type="submit"] {
+	margin-left: 5px;
+	width: 300px;
+	height: 30px;
+	border: none;
+	border-radius: 10px;
+	background: steelblue;
+	color: white;
+}
+
+a[target="_blank"] {
+	text-decoration: none;
+	border-bottom: 2px dashed orange;
+}
