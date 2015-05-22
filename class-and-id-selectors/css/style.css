@@ -1,0 +1,39 @@
+#page-title {
+	text-align:center;
+}
+
+.container {
+	margin: auto;
+	width: 740px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.global {
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+.main-header {
+	height: 110px;
+	background: #022751;
+	color: white;
+	font-size: 3em;
+}
+
+#main-content {
+	padding: 20px;
+ 	height: 200px; 
+	background: #6ABDE9;
+	text-align: center;
+	font-size: 5em;
+	line-height: 2.3em;
+}
+
+.main-footer {
+	height: 300px;
+	line-height: 2em;
+	background: #7ABC49;
+	color: white;
+	font-size: 8em;
+}
