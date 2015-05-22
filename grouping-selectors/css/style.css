@@ -1,0 +1,29 @@
+body {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* Shapes */
+
+.base {
+  display: inline-block;
+  margin: 0 15px;
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  background-image:url('../elephant.jpg');
+
+}
+
+.radius {
+  border-radius: 50%;
+  background-image:url('../liger.jpg');
+}
+
+.ellipse {
+  height: 120px;
+  background-image:url('../turtle.jpg');
+  background-size: 100% 100%;
+}
+
+
