@@ -1,7 +1,10 @@
 body {
 	padding: 2% 25%;
 	font: 1em/1.5 sans-serif;
+	background-color: black;
+	color: white;
 }
+
 form {
 	margin-top: 30px;
 }
@@ -9,34 +12,51 @@ form {
 /* Attribute Selectors */
 
 span[class="highlight"] {
-	padding: 5px;
-	background-color: yellow;  
+	color: yellow;  
+	text-shadow: 5px 5px 5px orange;
+	font-size: 30px;
 }
 
-a[class="foo"] {
-	padding: 5px;
-	background-color: burlywood;  
-	color: white;
+h2[class="second-line"] {
+color: orange;
+text-shadow: -5px -5px 5px silver;
+font-size: 30px;
 }
 
-input[type="email"] {
-	width: 300px;
-	height: 25px;
+p[class="third-line"] {
+	padding: 5px;
+	color: yellow;  
+	font-size: 30px;
+}
+
+p[class="forth-line"]{
+	background-color: black;
+	color: silver;
+	font-size:30px;
+}
+
+p[class="fifth-line"]{
+	color: silver;
+	text-shadow: -5px 5px 5px orange;
+	font-size:30px;
+}
+
+p[class="sixth-line"] {
+	color: yellow;  
+	text-shadow: 5px 5px 5px orange;
+	font-size: 30px;
+}
+
+p[class="seventh-line"] {
+	color: orange;
+text-shadow: -5px -5px 5px silver;
+font-size: 30px;
+}
+
+p[class="last-line"] {
+	width: 450px;
+	height: 40px;
+	padding-left: 20px;
 	border: 2px solid grey;
-	background: lightyellow;
-}
-
-input[type="submit"] {
-	margin-left: 5px;
-	width: 300px;
-	height: 30px;
-	border: none;
-	border-radius: 10px;
-	background: steelblue;
-	color: white;
-}
-
-a[target="_blank"] {
-	text-decoration: none;
-	border-bottom: 2px dashed orange;
+	font-size: 30px;
 }
