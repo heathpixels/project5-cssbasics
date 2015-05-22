@@ -4,28 +4,35 @@ div {
 	margin-left: auto;
 	margin-right:auto;
 	width: 50%;
+	font-size: 30px;
 }
 
-h1 {
-	color: rosybrown;
-	font-size: 40px;
+h1{
+	text-align: center;
 }
 
 h2 {
-	color: RebeccaPurple;
+	color: rosybrown;
+}
+
+h3 {
+	color: rosybrown;
 }
 
 p {
-	color: white;
-	padding: 10px;
-	background-color: sandybrown;
+	color: sandybrown;
+	font-size: 40px;
 }
 
-h2 span {
-	color: violet;
+h4{
+	color: darkseagreen;
+}
+
+h3 span {
+	color: black;
 }
 
 p span {
-	color: navy;
+	color: brown;
 	font-weight: bold;
 }
