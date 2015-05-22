@@ -1,0 +1,77 @@
+body {
+	padding: 1% 30%;
+	font-family: sans-serif;
+}
+ul {
+	margin: 25px auto 0;
+	padding: 12px;
+	border: 2px dotted grey;
+	list-style-position: inside;
+	font-size: 1.5em;
+}
+li {
+	margin: 0;
+	padding: 15px;
+	border-bottom: 2px solid #224a6b;
+	height: 250px;
+}
+
+/* Structural Pseudo-classes */
+
+b:only-child div{
+	background-color: lightcoral;
+	content: url('../eggrolls.jpg');
+	padding: 10px;
+	margin: auto;
+}
+
+b:only-child p{
+	text-align: center;
+}
+
+li:nth-child(2) div {
+	background-color: red;
+	padding: 10px;
+	content: url('../tomkha.jpg');
+	margin: auto;
+}
+
+li:nth-child(2) p {
+	text-align: center;
+}
+
+li:nth-child(3) div {
+	background-color: orange;
+	padding: 10px;
+	content: url('../seafoodvermicelli.jpg');
+	margin: auto;
+}
+
+li:nth-child(3) p {
+	text-align: center;
+}
+
+li:nth-child(4) div {
+	background-color: green;
+	padding: 10px;
+	content: url('../chickenskewers.jpg');
+	margin: auto;
+}
+
+li:nth-child(4) p {
+	text-align: center;
+}
+
+li:last-child div{
+	background-color: steelblue;
+	padding: 10px;
+	content: url('../coconuticecream.jpg');
+    color: white;
+    border: none;
+    margin: auto;
+}
+
+li:last-child p{
+	text-align: center;
+}
+
