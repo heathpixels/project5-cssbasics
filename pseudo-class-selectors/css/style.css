@@ -41,12 +41,13 @@ a:visited {
 
 a:active {
 	font-size: 26px;
+        background-color: green;
 }
 
 a:hover {
 	color: white;
 	text-decoration: none;
-	background-color: tomato;
+	color: tomato;
 }
 
 :focus {
